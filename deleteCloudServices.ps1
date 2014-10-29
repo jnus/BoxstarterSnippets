@@ -6,7 +6,7 @@ Write-Host "Deleting cloud services"
 $deleting | Format-Table
 
 $deleting | ForEach-Object {
-    Remove-AzureService -ServiceName $_.ServiceName -DeleteAll
+    Remove-AzureService -ServiceName $_.ServiceName -DeleteAll -Force
 }
 
 

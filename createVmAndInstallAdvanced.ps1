@@ -21,3 +21,8 @@ foreach ($nm in $nms) {
 
 # Create VMs
 New-AzureVM -Location $location -ServiceName $serviceName -VMs $vms
+
+# Install VMs
+$nms | Enable-BoxstarterVM -provider Azure -CloudServiceName $serviceName -Credential $cred |
+       Install-BoxstarterPackage https://gist.githubusercontent.com/jnus/27e743aee4021d835151/raw/f9e7c33fd3f272cd87e892ae5bd562367f898ec9/gistfile1.txt
+
