@@ -1,9 +1,10 @@
-BoxstarterSnippets
-==================
+## What ##
 
-Misc powershell examples with Boxstarter and Azure VM integration. Used for demo purposes.
+Misc powershell examples with Boxstarter and Azure VM integration. Used for demo purposes, of how to use the Azure powershell library, Boxstarter and the integration og Azure and Boxstarter
 
 The Boxstarter script used in this example to install the servers, is located here: [https://gist.github.com/jnus/27e743aee4021d835151](https://gist.github.com/jnus/27e743aee4021d835151)
+
+## How ##
 
 1. Login to your Azure account through the browser [https://manage.windowsazure.com/](https://manage.windowsazure.com/)
 2. Create a storage account for use in this example
