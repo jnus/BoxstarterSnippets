@@ -2,7 +2,7 @@
 
 Misc powershell examples with Boxstarter and Azure VM integration. Used for demo purposes, for demostrating how to use the Azure powershell library, Boxstarter and the integration of Azure and Boxstarter
 
-The Boxstarter script used in this example to install the servers, is located here: [https://gist.github.com/jnus/27e743aee4021d835151](https://gist.github.com/jnus/27e743aee4021d835151)
+The Boxstarter script used in this example to install the servers, is located in the this [gist](https://gist.githubusercontent.com/jnus/27e743aee4021d835151/raw/0b5f7ab7d533d8809eb9715b73fe61f35bf94e9e/gistfile1.txt) 
 
 ## How ##
 
